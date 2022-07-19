@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="app.js"></script>
+    <title>Document</title>
+</head>
+<style>
+#watch {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+#second {
+    height: 360px;
+    width: 4px;
+    background-color: black;
+    left: 406px;
+    top: 45px;
+    position: absolute;
+    z-index: 10;
+    transform-origin: 50% 100% 0;
+
+}
+#minute {
+    height: 260px;
+    width: 6px;
+    background-color: black;
+    left: 405px;
+    top: 145px;
+    position: absolute;
+    z-index: 9;
+    transform-origin: 50% 100% 0;
+}
+#hour {
+    height: 160px;
+    width: 8px;
+    background-color: black;
+    left: 404px;
+    top: 245px;
+    position: absolute;
+    z-index: 8;
+    transform-origin: 50% 100% 0;
+}
+
+</style>
+<body>
+
+    <div id="watch">
+        <img src="watch.jpg" alt="11">
+
+    </div>
+    <div id="second"></div>
+    <div id="minute"></div>
+    <div id="hour"></div>
+
+    
+</body>
+</html>
